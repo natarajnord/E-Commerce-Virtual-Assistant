@@ -1,0 +1,41 @@
+{
+    "name": "E-commerce Virtual Assistant",
+    "envVariables": [
+        {
+            "key": "environment",
+            "value": "https://dpd.kore.ai",
+            "variableType": "env",
+            "hint": "",
+            "scope": "hidden",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "5f9d462be2bd8b32e8a563ee"
+            ]
+        },
+        {
+            "key": "Products",
+            "value": "{\n  \"Television\": [\n    {\n      \"Product\": \"Television\",\n      \"ProductName\": \"Television\",\n      \"Image\": \"https://blueprint-api-production.s3.amazonaws.com/uploads/card/image/877046/bf813b48-d367-46ab-abf3-9c277eb3b412.jpg\",\n      \"Value\": \"$150\",\n      \"Brand\": \"Samsung\",\n      \"Type\": \"QLED\",\n      \"Size\": \"55 inch\",\n      \"Syn\": \"television,TV,Television\"\n    },\n    {\n      \"Product\": \"Television\",\n      \"ProductName\": \"Television\",\n      \"Image\": \"https://www.panasonic.com/content/dam/pim/my/en/TH/TH-77E/TH-77EZ1000K/TH-77EZ1000K-Variation_Image_for_See_All_1Global-1_my_en_171019.png\",\n      \"Value\": \"$199\",\n      \"Brand\": \"Panasonic\",\n      \"Type\": \"OLED\",\n      \"Size\": \"65 inch\"\n    },\n    {\n      \"Product\": \"Television\",\n      \"ProductName\": \"Television\",\n      \"Image\": \"https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dw26108f4b/images/KD65Z9D/KD65Z9D.png?sw=442&sh=442&sm=fit\",\n      \"Value\": \"$210\",\n      \"Brand\": \"Sony\",\n      \"Type\": \"8K Ultra HD\",\n      \"Size\": \"79 inch\"\n    },\n    {\n      \"Product\": \"Television\",\n      \"ProductName\": \"Television\",\n      \"Image\": \"https://seller.shoponn.in/Item/LG%2032%20LED%20TV%2032LK526BPTA%20A.jpg\",\n      \"Value\": \"$145\",\n      \"Brand\": \"LG\",\n      \"Type\": \"LED\",\n      \"Size\": \"32 inch\"\n    }\n  ],\n  \"Phones\": [\n    {\n      \"Product\": \"Phones\",\n      \"ProductName\": \"Phone\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/4/7/10197974/u_10197974.jpg\",\n      \"Value\": \"$999\",\n      \"Brand\": \"Iphone\",\n      \"Type\": \"11 Pro\",\n      \"Size\": \"6.5 inch\",\n      \"Syn\": \"Phones,phone,mobile,cellphone,cellular,handset,Iphone,Iphone11,\\\"Iphone 11\\\",\\\"Iphone11 Pro\\\",\\\"Iphone 11 Pro\\\",Iphone11Pro\"\n    },\n    {\n      \"Product\": \"Phones\",\n      \"ProductName\": \"Phone\",\n      \"Image\": \"https://m.media-amazon.com/images/I/71w3oJ7aWyL._SX679_.jpg\",\n      \"Value\": \"$750\",\n      \"Brand\": \"Iphone\",\n      \"Type\": \"11\",\n      \"Size\": \"6.1 inch\"\n    },\n    {\n      \"Product\": \"Phones\",\n      \"ProductName\": \"Phone\",\n      \"Image\": \"https://www.mytrendyphone.eu/images/OnePlus-7T-128GB-Frosted-Silver-14102019-01-p.jpg\",\n      \"Value\": \"$669\",\n      \"Brand\": \"One Plus\",\n      \"Type\": \"7 Pro\",\n      \"Size\": \"6.7 inch\"\n    },\n    {\n      \"Product\": \"Phones\",\n      \"ProductName\": \"Phone\",\n      \"Image\": \"https://purepng.com/public/uploads/thumbnail/purepng.com-oneplus-6notchoneplus6phone-31531430332njqsv.png\",\n      \"Value\": \"$550\",\n      \"Brand\": \"One Plus\",\n      \"Type\": \"6T\",\n      \"Size\": \"6.4 inch\"\n    }\n  ],\n  \"Mobile Accessories\": [\n    {\n      \"Product\": \"Mobile Accessories\",\n      \"ProductName\": \"Charging Pad\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/8/8/10178188/u_10178188.jpg\",\n      \"Value\": \"$18\",\n      \"Brand\": \"Sandstrom\",\n      \"Type\": \"S15WC18 Qi Wireless\",\n      \"Syn\": \"\\\"Mobile Accessories\\\",\\\"charging pad\\\",charger,\\\"wireless charging\\\"\"\n    },\n    {\n      \"Product\": \"Mobile Accessories\",\n      \"ProductName\": \"Charger\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/9/6/10172569/u_10172569.jpg\",\n      \"Value\": \"$45\",\n      \"Brand\": \"Belkin\",\n      \"Type\": \"USB Type-C 45W Home Charger - 1.8 m\"\n    }\n  ],\n  \"Refrigerator\": [\n    {\n      \"Product\": \"Refrigerator\",\n      \"ProductName\": \"Refrigerator\",\n      \"Image\": \"https://pluspng.com/img-png/png-fridge-refrigerator-png-image-1200.png\",\n      \"Value\": \"$2000\",\n      \"Brand\": \"Bosch\",\n      \"Type\": \"Freestanding\",\n      \"Size\": \"280 Litres\",\n      \"Syn\": \"refrigerator,fridge,Refrigerator\"\n    },\n    {\n      \"Product\": \"Refrigerator\",\n      \"ProductName\": \"Refrigerator\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/0/0/10189500/l_10189500_005.jpg\",\n      \"Value\": \"$1799\",\n      \"Brand\": \"Samsung\",\n      \"Type\": \"Integrated\",\n      \"Size\": \"268 Litres\"\n    },\n    {\n      \"Product\": \"Refrigerator\",\n      \"ProductName\": \"Refrigerator\",\n      \"Image\": \"http://www.pngmart.com/files/6/LG-Refrigerator-PNG-Free-Download.png\",\n      \"Value\": \"$1889\",\n      \"Brand\": \"LG\",\n      \"Type\": \"American\",\n      \"Size\": \"321 Litre\"\n    },\n    {\n      \"Product\": \"Refrigerator\",\n      \"ProductName\": \"Refrigerator\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/3/5/10175353/l_10175353_001.jpg\",\n      \"Value\": \"$2100\",\n      \"Brand\": \"Haier\",\n      \"Type\": \"MultiDoor\",\n      \"Size\": \"420 Litre\"\n    }\n  ],\n  \"Microwave\": [\n    {\n      \"Product\": \"Microwave\",\n      \"ProductName\": \"Microwave\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/2/3/10178132/u_10178132.jpg\",\n      \"Value\": \"$99\",\n      \"Brand\": \"Hotpoint\",\n      \"Type\": \"MWH 1331 - Black\",\n      \"Syn\": \"Microwave,microwave, oven\"\n    }\n  ],\n  \"PCs\": [\n    {\n      \"Product\": \"PCs\",\n      \"ProductName\": \"Towers\",\n      \"Image\": \"https://brain-images-ssl.cdn.dixons.com/2/2/10193822/u_10193822.jpg\",\n      \"Value\": \"$1100\",\n      \"Brand\": \"Dell\",\n      \"Type\": \"Inspiron 3670 Intel Core\",\n      \"Syn\": \"PCs,PC,windows,laptop,computer,desktop,Towers\"\n    },\n    {\n      \"Product\": \"PCs\",\n      \"ProductName\": \"Towers\",\n      \"Image\": \"https://dlcdnrog.asus.com/rog/media/1461084809567.jpg\",\n      \"Value\": \"$1499\",\n      \"Brand\": \"Asus\",\n      \"Type\": \"ROG Strix GL10\"\n    },\n    {\n      \"Product\": \"PCs\",\n      \"ProductName\": \"Towers\",\n      \"Image\": \"https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06619561_5.png\",\n      \"Value\": \"$1299\",\n      \"Brand\": \"HP\",\n      \"Type\": \"M27f Intel Core\"\n    }\n  ],\n  \"MAC Laptops\": [\n    {\n      \"Product\": \"MAC Laptops\",\n      \"ProductName\": \"Laptop\",\n      \"Image\": \"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-gold-select-201810?wid=1078&hei=624&fmt=jpeg&qlt=80&.v=1633027804000\",\n      \"Value\": \"$1199\",\n      \"Brand\": \"Apple\",\n      \"Type\": \"13.3 MacBook Air - 128 GB SSD\",\n      \"Syn\": \"\\\"Mac Laptops\\\",MacBook,mac,laptop,computer\"\n    },\n    {\n      \"Product\": \"MAC Laptops\",\n      \"ProductName\": \"Laptop\",\n      \"Image\": \"https://static.turbosquid.com/Preview/2019/02/22__05_32_59/MacBook_Air_Gold_360000.jpg35065A31-AEAF-4E84-B369-64735EB57104Large-1.jpg\",\n      \"Value\": \"$1399\",\n      \"Brand\": \"Apple\",\n      \"Type\": \"13.3 MacBook Air - 256 GB SSD, Gold\"\n    }\n  ]\n}",
+            "variableType": "env",
+            "hint": "",
+            "scope": "hidden",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "5f9d462be2bd8b32e8a563ee"
+            ]
+        },
+        {
+            "key": "phoneNo",
+            "value": "+14076073325",
+            "variableType": "env",
+            "hint": "",
+            "scope": "hidden",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "5f9d462be2bd8b32e8a563ee"
+            ]
+        }
+    ]
+}
